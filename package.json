@@ -1,0 +1,22 @@
+{
+  "name": "facebook-jest-5628",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rob Hilgefort <rjhilgefort@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "8.10.0",
+    "yarn": "^1.5.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest --verbose --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "globalSetup": "<rootDir>/test/global-setup.js"
+  }
+}
